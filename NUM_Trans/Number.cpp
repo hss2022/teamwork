@@ -1,8 +1,14 @@
-
+void Number::Display0() {
+	if (flag == false) {
+		cout << "è¾“å…¥é”™è¯¯" << endl;
+		return;
+	}
+	cout << output << endl;
+}
 void Number::Display1()
 {
 	if (flag == false) {
-		cout << "ÊäÈë´íÎó" << endl;
+		cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" << endl;
 		return;
 	}
 	cout << output << endl;
